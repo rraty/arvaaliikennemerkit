@@ -14,7 +14,7 @@ const App = () => {
 		arr.sort(() => Math.random() - 0.5)
 	)
 	// Dataaaa, korvaa tässä tapauksessa nyt apin ja yms yms korjataan tämä sitten joskus :))
-	const quests = dummyData.photos.KieltoJaVaroitusmerkit.content.map(l => ({
+	const quests = dummyData.photos.lisaKilvet.content.map(l => ({
 		id: l.id, title: l.title.match(/:(.*)/g).pop().replace(": ", ""), url: `https://live.staticflickr.com/${l.server}/${l.id}_${l.secret}_c.jpg`
 	}));
 
