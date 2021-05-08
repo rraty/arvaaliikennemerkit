@@ -3,7 +3,7 @@ import { Image } from 'semantic-ui-react'
 
 const Question = ({ content, imgSrc }) => {
 	return (
-		<div className="question">
+		<div>
 			<h2>{content}</h2>
 			<Image srcSet={imgSrc} fluid/>
 		</div>
